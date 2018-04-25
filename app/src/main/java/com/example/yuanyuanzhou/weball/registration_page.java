@@ -11,9 +11,9 @@ import android.widget.Toast;
 public class registration_page extends Activity {
 
     public void registrationButton(View view) {
-        @SuppressLint("WrongViewCast") EditText emailAddressEditText = (EditText) findViewById(R.id.emailAddressEditText);
-        @SuppressLint("WrongViewCast") EditText password2EditText = (EditText) findViewById(R.id.password2EditText);
-        @SuppressLint("WrongViewCast") EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
+        EditText emailAddressEditText = (EditText) findViewById(R.id.emailAddressEditText);
+        EditText password2EditText = (EditText) findViewById(R.id.password2EditText);
+        EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
         if (emailAddressEditText.getText().toString() == "" || password2EditText.getText().toString() == "" || usernameEditText.getText().toString() == "") {
             Toast.makeText(this, "A email address, a password and a username are required!", Toast.LENGTH_SHORT).show();
         } else {

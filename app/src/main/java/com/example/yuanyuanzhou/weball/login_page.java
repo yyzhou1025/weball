@@ -19,6 +19,11 @@ public class login_page extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+    public void sighupButton(View view) {
+        Intent intent = new Intent (this, registration_page.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
