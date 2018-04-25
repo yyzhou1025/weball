@@ -1,59 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/Me"
-        android:layout_width="370dp"
-        android:layout_height="59dp"
+        android:id="@+id/button6"
+        android:layout_width="377dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="224dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="153dp"
         android:background="@color/colorPrimary"
         android:text="Me"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="161dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
 
     <Button
-        android:id="@+id/createPost"
-        android:layout_width="371dp"
-        android:layout_height="62dp"
+        android:id="@+id/button7"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
         android:background="@color/colorPrimary"
-        android:onClick="createPost"
-        android:text="Create Post"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="234dp" />
+        android:text="Create Game"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/discoverGames"
-        android:layout_width="370dp"
-        android:layout_height="56dp"
+        android:id="@+id/button8"
+        android:layout_width="374dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:background="@color/colorPrimary"
-        android:text="Discover Games"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="313dp" />
+        android:text="Discover Game"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/myGames"
-        android:layout_width="376dp"
-        android:layout_height="59dp"
+        android:id="@+id/button9"
+        android:layout_width="0dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginStart="6dp"
         android:background="@color/colorPrimary"
-        android:onClick="myGames"
-        android:text="My Games"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="380dp" />
+        android:text="My Game"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/logOut"
-        android:layout_width="372dp"
-        android:layout_height="61dp"
+        android:id="@+id/button10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginStart="4dp"
         android:background="@color/colorPrimary"
         android:text="Log out"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="447dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 </android.support.constraint.ConstraintLayout>

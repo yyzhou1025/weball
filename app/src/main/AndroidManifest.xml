@@ -16,9 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".welcome_page2" />
         <activity android:name=".registration_page" />
         <activity android:name=".home_page" />
+        <activity android:name=".login_page"></activity>
     </application>
 
 </manifest>

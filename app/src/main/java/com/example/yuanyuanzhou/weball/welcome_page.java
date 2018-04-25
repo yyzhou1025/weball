@@ -15,7 +15,7 @@ public class welcome_page extends AppCompatActivity {
     }
 
     public void AgreeButton (View view){
-        Intent intent = new Intent (this, welcome_page2.class);
+        Intent intent = new Intent (this, login_page.class);
         startActivity(intent);
     }
 
