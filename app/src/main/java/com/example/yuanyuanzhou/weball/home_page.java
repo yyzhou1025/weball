@@ -12,8 +12,13 @@ public class home_page extends Activity {
         setContentView(R.layout.activity_home_page);
     }
 
-    public void logoutButtonButton (View view){
+    public void logoutButton (View view){
         Intent intent = new Intent (this, login_page.class);
+        startActivity(intent);
+    }
+
+    public void meButton (View view) {
+        Intent intent = new Intent (this, me_page.class);
         startActivity(intent);
     }
 }

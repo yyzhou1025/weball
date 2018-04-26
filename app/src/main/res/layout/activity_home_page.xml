@@ -6,15 +6,16 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/Me"
+        android:id="@+id/meButton"
         android:layout_width="354dp"
         android:layout_height="57dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="145dp"
         android:background="@color/colorPrimary"
+        android:onClick="meButton"
         android:text="Me"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +36,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Me" />
+        app:layout_constraintTop_toBottomOf="@+id/meButton" />
 
     <Button
         android:id="@+id/button18"
@@ -73,7 +74,7 @@
     <Button
         android:id="@+id/logoutButton"
         android:layout_width="358dp"
-        android:layout_height="62dp"
+        android:layout_height="57dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
