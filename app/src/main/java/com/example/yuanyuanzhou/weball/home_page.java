@@ -16,9 +16,14 @@ public class home_page extends Activity {
         Intent intent = new Intent (this, login_page.class);
         startActivity(intent);
     }
+<<<<<<< HEAD
 
     public void meButton (View view) {
         Intent intent = new Intent (this, me_page.class);
+=======
+    public void buttonCreate (View view){
+        Intent intent = new Intent (this, Create1Activity.class);
+>>>>>>> 4767df5b4f236805acae35f0a507d4fe8f967837
         startActivity(intent);
     }
 }

@@ -19,8 +19,15 @@
         <activity android:name=".registration_page" />
         <activity android:name=".home_page" />
         <activity android:name=".login_page" />
+<<<<<<< HEAD
         <activity android:name=".me_page" />
         <activity android:name=".friends_page"></activity>
+=======
+        <activity android:name=".Create1Activity" />
+        <activity android:name=".Create2Activity" />
+        <activity android:name=".Create3Activity" />
+        <activity android:name=".Create4Activity"></activity>
+>>>>>>> 4767df5b4f236805acae35f0a507d4fe8f967837
     </application>
 
 </manifest>
