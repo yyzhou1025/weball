@@ -18,7 +18,11 @@
         </activity>
         <activity android:name=".registration_page" />
         <activity android:name=".home_page" />
-        <activity android:name=".login_page"></activity>
+        <activity android:name=".login_page" />
+        <activity android:name=".Create1Activity" />
+        <activity android:name=".Create2Activity" />
+        <activity android:name=".Create3Activity" />
+        <activity android:name=".Create4Activity"></activity>
     </application>
 
 </manifest>
